@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SOP Generation Tool</title>
+<script src="script.js"></script>
+<style>
+body {
+  font-family: sans-serif;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+button {
+  background-color: #337ab7;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>SOP Generation Tool</h1>
+<form action="/generate-statement-of-purpose" method="post">
+  <input type="text" name="name" placeholder="Name">
+  <input type="email" name="email" placeholder="Email">
+  <input type="text" name="phone_number" placeholder="Phone Number">
+  <input type="text" name="education_institution" placeholder="Education Institution">
+  <input type="text" name="job_title" placeholder="Job Title">
+  <button type="submit">Generate Statement of Purpose</button>
+</form>
+</body>
+</html>
