@@ -3,4 +3,5 @@
 // example: math library, string library, array library etc
 // we can also create our own library
 
-Math.sqrt , Math.ceil, Math.abs etc 
+Math.sqrt , Math.ceil, Math.abs 
+//etc 
