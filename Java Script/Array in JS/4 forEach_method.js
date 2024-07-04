@@ -1,7 +1,7 @@
 //forEach() method use in js
 //forEach() method is used to iterate over the array elements
 //forEach() method is not used to return the value
-//forEach() method is used to perform the operation on the array elements
+//forEach() method is used to perform the operation on the array elements and gives modified value of the array
 
 /**
  * normal for loop examples is here: 
