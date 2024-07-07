@@ -10,3 +10,10 @@ const result = arr.filter((element,index) => {
     }
 })
 console.log("FInal Filetred array is:", result);
+
+let newArr = [{id: 1, name : 'Iphone', price : 20000},{id: 2, name : 'Samsung', price : 15000},{id: 1, name : 'OnePlus', price : 10000}];
+const resultArr = newArr.filter((product,idx) => {
+                console.log(idx);
+                return product.price > 15000;
+})
+console.log(resultArr);

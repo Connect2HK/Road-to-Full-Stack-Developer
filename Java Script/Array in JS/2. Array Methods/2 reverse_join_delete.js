@@ -11,3 +11,6 @@ console.log(result)
 let deleteArr = [1,2,3,5,6,7];
 delete deleteArr[1] ; // where deleteArr[index];
 console.log(deleteArr); // here we can see that the value at index 1 is deleted but it will be still in arr as undefined/empty with memory space 
+
+
+
