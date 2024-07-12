@@ -6,3 +6,9 @@ console.log(`The value of lastIndex is ${myRe.lastIndex}`);
 // "The value of lastIndex is 5"
 
 
+const re = /\w+\s/g;
+const str = "fee fi fo fum";
+const myArray1 = str.match(re);
+console.log(myArray1);
+
+// ["fee ", "fi ", "fo "]
