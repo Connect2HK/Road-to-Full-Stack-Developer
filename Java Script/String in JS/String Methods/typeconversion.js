@@ -2,6 +2,7 @@
 /**
  * parseInt
  */
+// used to convert string into number or numbe rinto string vice-versa
 let str = 'Type convertion';
 let result = parseInt(str);
 console.log(result);
