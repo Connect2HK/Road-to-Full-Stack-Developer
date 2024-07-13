@@ -3,4 +3,5 @@
 // DOM is a W3C (World Wide Web Consortium) standard
 // DOM is a programming interface for HTML and XML documents
 // DOM tree is a logical tree of HTML elements and text nodes
+// DOM tree is a logical tree of HTML elements and text nodes
 
