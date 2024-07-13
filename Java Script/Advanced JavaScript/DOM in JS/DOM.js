@@ -6,4 +6,8 @@
 // DOM tree is a logical tree of HTML elements and text nodes
 // there are many events or functions in JS to use DOM 
 // here is an example
+// document.getElementById("myBtn").addEventListener("click", myFunction);
+// function myFunction() {
+//     document.getElementById("demo").innerHTML = "Hello World!";
+// }
 
