@@ -4,4 +4,6 @@
 // DOM is a programming interface for HTML and XML documents
 // DOM tree is a logical tree of HTML elements and text nodes
 // DOM tree is a logical tree of HTML elements and text nodes
+// there are many events or functions in JS to use DOM 
+
 
