@@ -10,4 +10,11 @@
 // function myFunction() {
 //     document.getElementById("demo").innerHTML = "Hello World!";
 // }
+// here is an example of DOM
+// <p id="demo">Hello World!</p>
+// <button id="myBtn">Click me</button>
+// here is an example of DOM
+// <p id="demo">Hello World!</p>
+// <button id="myBtn">Click me</button>
+
 
