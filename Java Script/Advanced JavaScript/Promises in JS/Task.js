@@ -50,6 +50,9 @@ function downloadFile(url, cb) {
 // 1. url
 // 2. data
 // 3. fileName
+// used  to download 
+// used  to write file
+
 
 
 
