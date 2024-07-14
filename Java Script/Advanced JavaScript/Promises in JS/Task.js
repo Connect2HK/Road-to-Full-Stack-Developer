@@ -46,6 +46,11 @@ function downloadFile(url, cb) {
     }
     )
 }
+//it will give 
+// 1. url
+// 2. data
+// 3. fileName
+
 
 
 
