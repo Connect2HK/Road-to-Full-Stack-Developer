@@ -30,7 +30,24 @@ function writeFile(data,cb){
         cb(data);
         },2000)
         }
-        
+
+        function uploadFile(fileName, newUrl, cb) {
+            setTimeout(()=>{cb(fileName);
+                },3000)
+                }
+                function downloadFile(url,cb){
+                    downloader(url,(data)=>{
+                        writeFile(data,(data)=>{
+                            uploadFile(data,(data)=>{
+                                cb(data);
+                                })
+                                })
+                                }
+                            )
+                            }
+                            
+                                
+
 
 
 
