@@ -20,3 +20,17 @@ function uploadFile(fileName, newUrl, cb) {
 }
  */
 
+function downloader(url,cb){
+    setTimeout(()=>{
+        cb(url);
+        },4000)
+}
+function writeFile(data,cb){
+    setTimeout(()=>{
+        cb(data);
+        },2000)
+        }
+        
+
+
+
