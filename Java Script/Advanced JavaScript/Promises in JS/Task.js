@@ -20,33 +20,35 @@ function uploadFile(fileName, newUrl, cb) {
 }
  */
 
-function downloader(url,cb){
-    setTimeout(()=>{
+function downloader(url, cb) {
+    setTimeout(() => {
         cb(url);
-        },4000)
+    }, 4000)
 }
-function writeFile(data,cb){
-    setTimeout(()=>{
+function writeFile(data, cb) {
+    setTimeout(() => {
         cb(data);
-        },2000)
-        }
+    }, 2000)
+}
 
-        function uploadFile(fileName, newUrl, cb) {
-            setTimeout(()=>{cb(fileName);
-                },3000)
-                }
-                function downloadFile(url,cb){
-                    downloader(url,(data)=>{
-                        writeFile(data,(data)=>{
-                            uploadFile(data,(data)=>{
-                                cb(data);
-                                })
-                                })
-                                }
-                            )
-                            }
-                            
-                                
+function uploadFile(fileName, newUrl, cb) {
+    setTimeout(() => {
+        cb(fileName);
+    }, 3000)
+}
+function downloadFile(url, cb) {
+    downloader(url, (data) => {
+        writeFile(data, (data) => {
+            uploadFile(data, (data) => {
+                cb(data);
+            })
+        })
+    }
+    )
+}
+
+
+
 
 
 
