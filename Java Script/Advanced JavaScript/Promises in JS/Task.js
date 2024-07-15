@@ -22,7 +22,7 @@ function uploadFile(fileName, newUrl, cb) {
 
 function downloader(url, cb) {  
     setTimeout(() => {
-        cb(url);             // here cb(url) used for download data of url using call back function cb
+        cb(url);             // here cb(url) used for download data of url using call back function cb with 4000ms
                             
     }, 4000)
 }
