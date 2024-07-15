@@ -20,9 +20,10 @@ function uploadFile(fileName, newUrl, cb) {
 }
  */
 
-function downloader(url, cb) {
+function downloader(url, cb) {  
     setTimeout(() => {
-        cb(url);
+        cb(url);             // here cb(url) used for 
+                            
     }, 4000)
 }
 function writeFile(data, cb) {
@@ -36,9 +37,9 @@ function uploadFile(fileName, newUrl, cb) {
         cb(fileName);
     }, 3000)
 }
-function downloadFile(url, cb) {
+function downloadFile(url, cb) {               
     downloader(url, (data) => {
-        writeFile(data, (data) => {
+        writeFile(data, (data) => {             
             uploadFile(data, (data) => {
                 cb(data);
             })
@@ -53,6 +54,7 @@ function downloadFile(url, cb) {
 // used  to download 
 // used  to write file
 // used  to upload file
+
 
 
 
