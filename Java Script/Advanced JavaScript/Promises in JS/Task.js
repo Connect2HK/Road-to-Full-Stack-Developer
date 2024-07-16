@@ -28,7 +28,7 @@ function downloader(url, cb) {
 }
 function writeFile(data, cb) {
     setTimeout(() => {
-        cb(data);  // here we use call back function cb to download
+        cb(data);  // here we use call back function cb to download data 
     }, 2000)
 }
 
