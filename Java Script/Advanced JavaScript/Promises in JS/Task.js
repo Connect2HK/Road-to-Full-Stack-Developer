@@ -28,7 +28,7 @@ function downloader(url, cb) {
 }
 function writeFile(data, cb) {
     setTimeout(() => {
-        cb(data);
+        cb(data);  // here 
     }, 2000)
 }
 
