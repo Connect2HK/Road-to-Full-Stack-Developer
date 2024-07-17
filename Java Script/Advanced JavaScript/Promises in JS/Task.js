@@ -40,7 +40,7 @@ function uploadFile(fileName, newUrl, cb) {
 function downloadFile(url, cb) {                   // here it use as function to download data from URL 
     downloader(url, (data) => {
         writeFile(data, (data) => {             
-            uploadFile(data, (data) => {     // it is 
+            uploadFile(data, (data) => {     // it is used to upload
                 cb(data);
             })
         })
