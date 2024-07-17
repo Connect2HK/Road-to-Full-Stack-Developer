@@ -37,7 +37,7 @@ function uploadFile(fileName, newUrl, cb) {
         cb(fileName);
     }, 3000)
 }
-function downloadFile(url, cb) {                   // here it use as function 
+function downloadFile(url, cb) {                   // here it use as function to download
     downloader(url, (data) => {
         writeFile(data, (data) => {             
             uploadFile(data, (data) => {
