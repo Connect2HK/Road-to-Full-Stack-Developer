@@ -19,3 +19,5 @@ console.log(resultArr);
 // 0: {arrId: 1, arrPrice: 20000}
 // 1: {arrId: 2, arrPrice: 15000}
 // 2: {arrId: 1, arrPrice: 10000}
+// idx contains index 
+
