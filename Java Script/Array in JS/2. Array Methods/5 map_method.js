@@ -20,4 +20,5 @@ console.log(resultArr);
 // 1: {arrId: 2, arrPrice: 15000}
 // 2: {arrId: 1, arrPrice: 10000}
 // idx contains index 
+// product contains element
 
