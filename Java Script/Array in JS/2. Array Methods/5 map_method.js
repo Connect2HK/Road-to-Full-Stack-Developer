@@ -17,3 +17,4 @@ console.log(resultArr);
 
 // here it is
 // 0: {arrId: 1, arrPrice: 20000}
+// 1: {arrId: 2, arrPrice: 15000}
