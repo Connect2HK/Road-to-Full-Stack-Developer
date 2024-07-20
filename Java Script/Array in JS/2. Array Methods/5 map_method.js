@@ -15,4 +15,5 @@ const resultArr = newArr.map((product,idx) => {
 })
 console.log(resultArr);
 
-// here it is 
+// here it is
+// 0: {arrId: 1, arrPrice: 20000}
