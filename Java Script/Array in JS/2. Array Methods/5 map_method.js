@@ -15,4 +15,4 @@ const resultArr = newArr.map((product,idx) => {
 })
 console.log(resultArr);
 
-// here it 
+// here it is 
