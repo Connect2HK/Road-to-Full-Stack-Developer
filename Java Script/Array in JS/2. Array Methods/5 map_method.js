@@ -14,3 +14,5 @@ const resultArr = newArr.map((product,idx) => {
                 return {arrId : product.id, arrPrice: product.price}
 })
 console.log(resultArr);
+
+// here 
