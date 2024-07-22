@@ -22,3 +22,5 @@ console.log(resultArr);
 // idx contains index 
 // product contains element
 
+// 
+
