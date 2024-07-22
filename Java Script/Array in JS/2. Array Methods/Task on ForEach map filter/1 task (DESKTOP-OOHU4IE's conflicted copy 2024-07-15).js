@@ -16,7 +16,9 @@ let newArr =[
 const modifiedResult = newArr.filter(elements => elements.price === 10000).map(element => element.name);
 console.log(modifiedResult);
 
-// this is used 
+// this is used when 
+
+
 // prob 3
 let num = [1,2,4,5,7];
 let sum = 0;
