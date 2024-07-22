@@ -16,7 +16,7 @@ let newArr =[
 const modifiedResult = newArr.filter(elements => elements.price === 10000).map(element => element.name);
 console.log(modifiedResult);
 
-// this is used when we have large
+// this is used when we have large dataset
 
 
 // prob 3
