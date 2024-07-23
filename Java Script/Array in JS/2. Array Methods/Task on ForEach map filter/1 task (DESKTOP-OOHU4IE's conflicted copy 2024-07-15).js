@@ -23,7 +23,7 @@ console.log(modifiedResult);
 let num = [1,2,4,5,7];
 let sum = 0;
 num.forEach(cb => {
-              if ( cb % 2 != 0){    // used to iterate over the array 
+              if ( cb % 2 != 0){    // used to iterate over the array but do 
                 sum += cb;
               }
 });
