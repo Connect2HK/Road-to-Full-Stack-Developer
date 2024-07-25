@@ -1,7 +1,7 @@
 // prob 1
 
 let arr =[1,3,4];
-const result = arr.map(element => element *2);  //lambda or arrow function  this is  functio 
+const result = arr.map(element => element *2);  //lambda or arrow function  this is  function used 
 
 console.log(result)
 
